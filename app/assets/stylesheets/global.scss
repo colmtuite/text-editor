@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  overflow: hidden;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.editor-container {
+  position: relative;
+  padding-right: 0;
+}
+.editor-container:first-child {
+  border-bottom: 1px solid #d9dbdf;
+}
+
+.codeEditor {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5 !important;
+  font-family: "Source Code Pro" !important;
+}
+
+aside {
+  float: left;
+  width: 32%;
+  height: 100%;
+  border-right: 1px solid #d9dbdf;
+}
+
+.canvas {
+  float: left;
+  width: 68%;
+  height: 100%;
+}
+
+.codeEditor-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #869298;
+}
